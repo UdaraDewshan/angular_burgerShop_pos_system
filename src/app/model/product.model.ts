@@ -5,6 +5,6 @@ export interface product{
     price: number;
     image: String;
     description: String;
-    catogary: 'burgers'|'sides'|'drinks';
+    categary: 'burgers'|'sides'|'drinks';
 
 }
