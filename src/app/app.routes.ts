@@ -25,5 +25,9 @@ export const routes: Routes = [
     {
         path: 'cart',
         component: CartComponent
+    },
+    {
+        path: 'menu',
+        component: ItemPageComponent
     }
 ];
