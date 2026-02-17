@@ -28,5 +28,9 @@ export class CartComponent implements OnInit{
     this.cartService.clearCart();
   }
 
+  removeItem(item:CartItem){
+    this.cartService.removeCartItems(item);
+  }
+
 
 }
