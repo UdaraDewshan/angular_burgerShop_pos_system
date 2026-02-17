@@ -1,6 +1,6 @@
 import { product } from "../model/product.model";
 
-export const MOCK_PRODUCTS: product[] = [
+export const PRODUCTS: product[] = [
   {
     id: 1,
     name: 'Classic Beef Burger',
@@ -83,18 +83,35 @@ export const MOCK_PRODUCTS: product[] = [
   },
   {
     id: 11,
+    name: 'Smoky BBQ Chicken',
+    price: 1250,
+    image: 'images/bg2.png',
+    description: 'Grilled chicken breast glazed with our signature smoky BBQ sauce.',
+    category: 'burgers'
+  },
+  {
+    id: 12,
+    name: 'The Ultimate Monster',
+    price: 2500,
+    image: 'images/bg2.png',
+    description: 'Beef, chicken, bacon, egg, and double cheese all in one massive bun.',
+    category: 'burgers'
+  },
+  {
+    id: 13,
     name: 'French Fries (L)',
     price: 600,
     image: 'images/bg2.png',
     description: 'Golden crispy potato fries.',
-    category: 'sides'
+    category: 'sides' 
   },
   {
-    id: 12,
+    id: 14,
     name: 'Coca Cola',
     price: 300,
     image: 'images/bg2.png',
     description: 'Chilled refreshing drink.',
     category: 'drinks' 
   }
+
 ];

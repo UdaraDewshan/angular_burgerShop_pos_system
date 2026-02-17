@@ -2,7 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { product } from '../model/product.model';
-import { MOCK_PRODUCTS } from '../data/products';
+import { PRODUCTS } from '../data/products';
+
 
 
 
@@ -16,7 +17,7 @@ export class ProductService {
   constructor() { }
 
   getProducts():Observable<product[]>{
-    return of(MOCK_PRODUCTS);
+    return of(PRODUCTS);
   }
 
 }
