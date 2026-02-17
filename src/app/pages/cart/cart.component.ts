@@ -22,4 +22,10 @@ export class CartComponent implements OnInit{
     });
   };
 
+  confirmOrder(){
+    alert('Order Placed Successfully!');
+    this.cartService.clearCart();
+  }
+
+
 }

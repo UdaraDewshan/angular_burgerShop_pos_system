@@ -42,5 +42,9 @@ export class CartService {
     return nextTotal;
   }
 
+  clearCart(){
+    this.cartItems = [];
+    this.cartItemList.next(this.cartItems);
+  }
 
 }
