@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { product } from '../model/product.model';
-import { MOCK_PRODUCTS } from '../data/burgerproduct';
+import { MOCK_PRODUCTS } from '../data/products';
 
 
 

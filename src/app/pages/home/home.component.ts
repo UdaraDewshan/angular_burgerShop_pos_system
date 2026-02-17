@@ -15,6 +15,7 @@ import { ProductService } from '../../services/product.service';
 export class HomeComponent implements OnInit{
 
   productsList: product[] = [];
+  allProduts: product[] = [];
 
   constructor(private productService : ProductService){}
 
@@ -23,13 +24,19 @@ export class HomeComponent implements OnInit{
 
       next:(data) => {
         this.productsList = data;
+        this.allProduts = data;
         console.log('Product Loaded',this.productsList);
+        this.filterProducts('burgers');
       },
 
       error: (err) => {
           console.log('error featch producs',err);
       }
     });
+  }
+
+  filterProducts(category:String){
+    this.productsList = this.allProduts.filter(item => item.category === category);
   }
 
 }

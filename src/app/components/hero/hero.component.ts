@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './hero.component.css'
 })
 export class HeroComponent {
+
+  @Output() categoryChange = new EventEmitter<String>();
+
+  onSelectCategory(catagoryName : String){
+    this.categoryChange.emit(catagoryName);
+    console.log("click")
+  }
 
 }

@@ -83,18 +83,18 @@ export const MOCK_PRODUCTS: product[] = [
   },
   {
     id: 11,
-    name: 'Smoky BBQ Chicken',
-    price: 1250,
+    name: 'French Fries (L)',
+    price: 600,
     image: 'images/bg2.png',
-    description: 'Grilled chicken breast glazed with our signature smoky BBQ sauce.',
-    category: 'burgers'
+    description: 'Golden crispy potato fries.',
+    category: 'sides'
   },
   {
     id: 12,
-    name: 'The Ultimate Monster',
-    price: 2500,
+    name: 'Coca Cola',
+    price: 300,
     image: 'images/bg2.png',
-    description: 'Beef, chicken, bacon, egg, and double cheese all in one massive bun.',
-    category: 'burgers'
+    description: 'Chilled refreshing drink.',
+    category: 'drinks' 
   }
 ];
