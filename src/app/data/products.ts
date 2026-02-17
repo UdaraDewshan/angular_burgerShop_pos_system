@@ -50,38 +50,6 @@ export const PRODUCTS: product[] = [
     category: 'burgers'
   },
   {
-    id: 7,
-    name: 'Mushroom & Swiss Burger',
-    price: 1350,
-    image: 'images/bg2.png',
-    description: 'Savory beef patty loaded with grilled mushrooms and melted Swiss cheese.',
-    category: 'burgers'
-  },
-  {
-    id: 8,
-    name: 'Triple Tower Burger',
-    price: 2200,
-    image: 'images/bg2.png',
-    description: 'For the ultimate hunger! Three beef patties with triple cheese.',
-    category: 'burgers'
-  },
-  {
-    id: 9,
-    name: 'Jalapeno Inferno',
-    price: 1400,
-    image: 'images/bg2.png',
-    description: 'Spicy chicken patty with spicy Jalapenos, hot sauce, and cheese.',
-    category: 'burgers'
-  },
-  {
-    id: 10,
-    name: 'Paneer Tikka Burger',
-    price: 950,
-    image: 'images/bg2.png',
-    description: 'Indian style grilled Paneer block with tandoori mayo and onions.',
-    category: 'burgers'
-  },
-  {
     id: 11,
     name: 'Smoky BBQ Chicken',
     price: 1250,
@@ -112,6 +80,54 @@ export const PRODUCTS: product[] = [
     image: 'images/bg2.png',
     description: 'Chilled refreshing drink.',
     category: 'drinks' 
+  },
+  {
+    id: 13,
+    name: 'French Fries (L)',
+    price: 600,
+    image: 'images/bg2.png',
+    description: 'Golden crispy potato fries with a pinch of salt.',
+    category: 'sides'
+  },
+  {
+    id: 14,
+    name: 'Crispy Onion Rings',
+    price: 750,
+    image: 'images/bg2.png',
+    description: 'Deep-fried battered onion rings served with spicy mayo.',
+    category: 'sides'
+  },
+  {
+    id: 15,
+    name: 'Chicken Nuggets (6 Pcs)',
+    price: 900,
+    image: 'images/bg2.png',
+    description: 'Juicy bite-sized chicken nuggets fried to perfection.',
+    category: 'sides'
+  },
+  {
+    id: 16,
+    name: 'Coca Cola (Large)',
+    price: 300,
+    image: 'images/bg2.png',
+    description: 'Chilled refreshing sparkling drink.',
+    category: 'drinks'
+  },
+  {
+    id: 17,
+    name: 'Iced Milo',
+    price: 450,
+    image: 'images/bg2.png',
+    description: 'Delicious and cooling chocolate malt energy drink.',
+    category: 'drinks'
+  },
+  {
+    id: 18,
+    name: 'Fresh Lemonade',
+    price: 350,
+    image: 'images/bg2.png',
+    description: 'Freshly squeezed sweet and sour lemon juice with ice.',
+    category: 'drinks'
   }
 
 ];
