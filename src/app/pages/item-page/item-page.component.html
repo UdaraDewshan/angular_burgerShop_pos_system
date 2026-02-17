@@ -26,7 +26,7 @@
             <h3 class="text-lg font-bold text-gray-900 group-hover:text-red-600 transition-colors">{{item.name}}</h3>
             <p class="text-sm text-gray-400 mt-1 line-clamp-2">{{item.description}}</p>
             
-            <button class="mt-4 w-full py-2 bg-gray-900 text-white font-bold rounded-xl hover:bg-red-600 transition-colors shadow-md flex items-center justify-center gap-2">
+            <button (click)="addToCart(item)" class="mt-4 w-full py-2 bg-gray-900 text-white font-bold rounded-xl hover:bg-red-600 transition-colors shadow-md flex items-center justify-center gap-2">
                 <span>Add to Order</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
