@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NavBarComponent } from "../../components/nav-bar/nav-bar.component";
 import { HeroComponent } from "../../components/hero/hero.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { ItemPageComponent } from "../item-page/item-page.component";
+import { product } from '../../model/product.model';
+import { ProductService } from '../../services/product.service';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +12,24 @@ import { ItemPageComponent } from "../item-page/item-page.component";
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit{
+
+  productsList: product[] = [];
+
+  constructor(private productService : ProductService){}
+
+  ngOnInit(): void {
+    this.productService.getProducts().subscribe({
+
+      next:(data) => {
+        this.productsList = data;
+        console.log('Product Loaded',this.productsList);
+      },
+
+      error: (err) => {
+          console.log('error featch producs',err);
+      }
+    });
+  }
 
 }
