@@ -93,7 +93,7 @@ export const PRODUCTS: product[] = [
     id: 14,
     name: 'Crispy Onion Rings',
     price: 750,
-    image: 'images/',
+    image: 'images/anioun.jpg',
     description: 'Deep-fried battered onion rings served with spicy mayo.',
     category: 'sides'
   },
@@ -101,15 +101,15 @@ export const PRODUCTS: product[] = [
     id: 15,
     name: 'Chicken Nuggets (6 Pcs)',
     price: 900,
-    image: 'images/bg2.png',
+    image: 'images/fridec.jpg',
     description: 'Juicy bite-sized chicken nuggets fried to perfection.',
     category: 'sides'
   },
   {
     id: 16,
-    name: 'Coca Cola (Large)',
+    name: 'Coca Cola',
     price: 300,
-    image: 'images/bg2.png',
+    image: 'images/coke.jpg',
     description: 'Chilled refreshing sparkling drink.',
     category: 'drinks'
   },
@@ -117,7 +117,7 @@ export const PRODUCTS: product[] = [
     id: 17,
     name: 'Iced Milo',
     price: 450,
-    image: 'images/bg2.png',
+    image: 'images/IcedMilo.jpg',
     description: 'Delicious and cooling chocolate malt energy drink.',
     category: 'drinks'
   },
@@ -125,7 +125,7 @@ export const PRODUCTS: product[] = [
     id: 18,
     name: 'Fresh Lemonade',
     price: 350,
-    image: 'images/bg2.png',
+    image: 'images/FreshLemonade.jpg',
     description: 'Freshly squeezed sweet and sour lemon juice with ice.',
     category: 'drinks'
   }
