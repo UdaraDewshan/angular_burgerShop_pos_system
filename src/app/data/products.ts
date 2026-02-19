@@ -5,7 +5,7 @@ export const PRODUCTS: product[] = [
     id: 1,
     name: 'Classic Beef Burger',
     price: 950,
-    image: 'images/bg2.png',
+    image: 'images/burger1.png',
     description: 'A juicy flame-grilled beef patty with fresh lettuce, tomato, and mayo.',
     category: 'burgers'
   },
@@ -13,7 +13,7 @@ export const PRODUCTS: product[] = [
     id: 2,
     name: 'Double Whopper',
     price: 1500,
-    image: 'images/bg2.png',
+    image: 'images/burger2.jpg',
     description: 'Two flame-grilled beef patties with melted cheese, onions, and pickles.',
     category: 'burgers'
   },
@@ -21,7 +21,7 @@ export const PRODUCTS: product[] = [
     id: 3,
     name: 'Spicy Chicken Royale',
     price: 1200,
-    image: 'images/bg2.png',
+    image: 'images/burger3.jpg',
     description: 'Crispy fried chicken breast with spicy mayo and crunchy lettuce.',
     category: 'burgers'
   },
@@ -29,7 +29,7 @@ export const PRODUCTS: product[] = [
     id: 4,
     name: 'BBQ Bacon Cheese Burger',
     price: 1650,
-    image: 'images/bg2.png',
+    image: 'images/burger4.jpg',
     description: 'Beef patty topped with crispy bacon, cheddar cheese, and smoky BBQ sauce.',
     category: 'burgers'
   },
@@ -37,7 +37,7 @@ export const PRODUCTS: product[] = [
     id: 5,
     name: 'Crispy Fish Fillet',
     price: 1100,
-    image: 'images/bg2.png',
+    image: 'images/burger5.jpeg',
     description: 'Golden fried fish fillet with tartar sauce and fresh lettuce.',
     category: 'burgers'
   },
@@ -45,7 +45,7 @@ export const PRODUCTS: product[] = [
     id: 6,
     name: 'Veggie Supreme Burger',
     price: 850,
-    image: 'images/bg2.png',
+    image: 'images/burger6.jpg',
     description: 'A delicious plant-based patty with fresh veggies and vegan mayo.',
     category: 'burgers'
   },
@@ -53,7 +53,7 @@ export const PRODUCTS: product[] = [
     id: 11,
     name: 'Smoky BBQ Chicken',
     price: 1250,
-    image: 'images/bg2.png',
+    image: 'images/burger7.jpg',
     description: 'Grilled chicken breast glazed with our signature smoky BBQ sauce.',
     category: 'burgers'
   },
@@ -61,7 +61,7 @@ export const PRODUCTS: product[] = [
     id: 12,
     name: 'The Ultimate Monster',
     price: 2500,
-    image: 'images/bg2.png',
+    image: 'images/burger8.jpg',
     description: 'Beef, chicken, bacon, egg, and double cheese all in one massive bun.',
     category: 'burgers'
   },
@@ -69,7 +69,7 @@ export const PRODUCTS: product[] = [
     id: 13,
     name: 'French Fries (L)',
     price: 600,
-    image: 'images/bg2.png',
+    image: 'images/slide1.jpg',
     description: 'Golden crispy potato fries.',
     category: 'sides' 
   },
@@ -77,7 +77,7 @@ export const PRODUCTS: product[] = [
     id: 14,
     name: 'Coca Cola',
     price: 300,
-    image: 'images/bg2.png',
+    image: 'images/cocakola.jpg',
     description: 'Chilled refreshing drink.',
     category: 'drinks' 
   },
@@ -85,7 +85,7 @@ export const PRODUCTS: product[] = [
     id: 13,
     name: 'French Fries (L)',
     price: 600,
-    image: 'images/bg2.png',
+    image: 'images/slide2.jpg',
     description: 'Golden crispy potato fries with a pinch of salt.',
     category: 'sides'
   },
@@ -93,7 +93,7 @@ export const PRODUCTS: product[] = [
     id: 14,
     name: 'Crispy Onion Rings',
     price: 750,
-    image: 'images/bg2.png',
+    image: 'images/',
     description: 'Deep-fried battered onion rings served with spicy mayo.',
     category: 'sides'
   },
