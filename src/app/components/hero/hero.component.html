@@ -1,0 +1,75 @@
+<section class="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white overflow-hidden">
+
+    <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/food.png')]"></div>
+
+    <div
+        class="container mx-auto px-6 pt-16 pb-24 md:pt-24 md:pb-0 relative z-10 flex flex-col-reverse md:flex-row items-center">
+
+        <div class="w-full md:w-1/2 text-center md:text-left mt-10 md:mt-1 space-y-8 ">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mx-10 -mt-15">
+                Taste the <span class="text-yellow-500">Explosion</span> <br>
+                of Flavor!
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-md mx-auto md:mx-20 font-medium">
+                Freshly grilled, perfectly stacked. The ultimate burger experience awaits you. Order now on our new POS!
+            </p>
+
+            <div class="flex justify-center md:justify-start space-x-4 pt-4 mx-30">
+                <button (click)="scrollToMenu()"
+                    class="px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-bold rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out uppercase tracking-wider">
+                    Order Now
+                </button>
+                <a routerLink="/menu"
+                    class="px-8 py-4 bg-transparent border-2 border-yellow-500 text-yellow-500 font-bold rounded-full hover:bg-yellow-500 hover:text-black transition duration-300 ease-in-out uppercase tracking-wider">
+                    View Menu
+                </a>
+            </div>
+        </div>
+
+        <div class="w-full md:w-1/2 flex justify-center relative">
+            <div
+                class="absolute bg-yellow-500 opacity-20 w-72 h-72 md:w-96 md:h-96 rounded-full filter blur-3xl -z-10 animate-pulse">
+            </div>
+
+            <img src='images/bg2.png' alt='bg2'
+                class="h-170 max-w-lg transform hover:-translate-y-9 transition duration-900 drop-shadow-2x1">
+        </div>
+
+    </div>
+
+    <div class="w-full relative z-20 -mt-12 pb-10">
+        <div class="container mx-auto px-4">
+            <h2 class="text-xl font-bold text-white mb-6 drop-shadow-md text-center">
+                What are you craving?
+            </h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div (click)="onSelectCategory('burgers')" class="flex flex-col items-center group cursor-pointer min-w-[80px]">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg flex items-center justify-center group-hover:bg-red-600 group-hover:border-red-600 transition-all duration-300 transform group-hover:-translate-y-2">
+                        <span class="text-3xl drop-shadow-sm">🍔</span>
+                    </div>
+                    <span
+                        class="mt-2 text-sm font-bold text-gray-300 group-hover:text-white transition-colors tracking-wide">Burgers</span>
+                </div>
+
+                <div (click)="onSelectCategory('sides')" class="flex flex-col items-center group cursor-pointer min-w-[80px]">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg flex items-center justify-center group-hover:bg-yellow-500 group-hover:border-yellow-500 transition-all duration-300 transform group-hover:-translate-y-2">
+                        <span class="text-3xl drop-shadow-sm">🍟</span>
+                    </div>
+                    <span
+                        class="mt-2 text-sm font-bold text-gray-300 group-hover:text-white transition-colors tracking-wide">Sides</span>
+                </div>
+
+                <div (click)="onSelectCategory('drinks')" class="flex flex-col items-center group cursor-pointer min-w-[80px]">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg flex items-center justify-center group-hover:bg-blue-500 group-hover:border-blue-500 transition-all duration-300 transform group-hover:-translate-y-2">
+                        <span class="text-3xl drop-shadow-sm">🥤</span>
+                    </div>
+                    <span
+                        class="mt-2 text-sm font-bold text-gray-300 group-hover:text-white transition-colors tracking-wide">Drinks</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
